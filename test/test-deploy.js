@@ -16,7 +16,7 @@ describe("SimpleStorage", function () {
         assert.equal(currentValue.toString(), expectedValue);
     });
 
-    it("store function should update favorite number", async function () {
+    it("Store function should update favorite number", async function () {
         const expectedValue = "7";
 
         const transactionResponse = await simpleStorage.store("7");
